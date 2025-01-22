@@ -1,0 +1,12 @@
+.alert {
+  background-color: #fee2e2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.alert-description {
+  color: #991b1b;
+  font-size: 0.875rem;
+} 
