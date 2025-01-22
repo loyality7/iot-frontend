@@ -1,8 +1,9 @@
 export default {
   apps: [{
     name: 'frontend',
-    script: 'npm',
-    args: 'run preview',
+    cwd: './',
+    script: './node_modules/vite/bin/vite.js',
+    args: 'preview',
     env: {
       NODE_ENV: 'production',
     },
